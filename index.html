@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suraj Sonnar | QA Test Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio and resume of Suraj Sonnar, Senior QA / Test Engineer specialising in web and mobile application testing."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="top-app-bar">
+      <div class="top-app-bar-inner">
+        <div class="top-app-bar-identity">
+          <div class="top-app-bar-title">Suraj Sonnar</div>
+          <p class="top-app-bar-role">QA · Test Engineer</p>
+        </div>
+        <nav class="top-app-bar-nav">
+          <a href="#brief">Brief</a>
+          <a href="#impact">Impact</a>
+          <a href="#experience">Experience</a>
+          <a href="#work">Work</a>
+          <a href="#credibility">Proof</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="top-app-bar-actions">
+          <button class="chip-button" id="availabilityToggle" type="button">
+            Interview ready
+          </button>
+          <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle theme">
+            <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 4.75a.75.75 0 0 1 .75-.75h0a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-.75.75h0a.75.75 0 0 1-.75-.75zm0 12.5a3.25 3.25 0 1 1 0-6.5 3.25 3.25 0 0 1 0 6.5zm7.25-3.25a.75.75 0 0 1 .75-.75h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1-.75-.75zm-15.5 0a.75.75 0 0 1 .75-.75h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1-.75-.75zm12.9-5.41a.75.75 0 0 1 1.06 0l.7.71a.75.75 0 0 1-1.06 1.06l-.7-.7a.75.75 0 0 1 0-1.07zm-11.31 0a.75.75 0 0 1 1.06 0l.7.71a.75.75 0 0 1-1.06 1.06l-.7-.7a.75.75 0 0 1 0-1.07zm10.25 10.24a.75.75 0 0 1 1.06 0l.7.71a.75.75 0 0 1-1.06 1.06l-.7-.7a.75.75 0 0 1 0-1.07zm-9.19 0a.75.75 0 0 1 1.06 0l.7.71a.75.75 0 0 1-1.06 1.06l-.7-.7a.75.75 0 0 1 0-1.07z"
+              />
+            </svg>
+            <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M20 15.31A8.5 8.5 0 0 1 9.19 4 7 7 0 1 0 20 15.31zm-1.62 1.44A9.99 9.99 0 0 1 7.25 3.53 9 9 0 1 0 18.38 16.75z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <!-- Left column: primary content -->
+      <div class="layout-main">
+        <!-- Hero / Summary -->
+        <section class="card hero-card" id="home">
+          <div class="hero-header">
+            <div>
+              <p class="hero-label">Senior QA / Test Engineer</p>
+              <h1 class="hero-title">Suraj Sonnar</h1>
+              <p class="hero-subtitle">
+                8+ years of experience improving quality for web and mobile applications (Android &amp; iOS)
+                across e‑commerce, payments, ticketing and enterprise domains.
+              </p>
+            </div>
+            <div class="hero-meta-block">
+              <div class="hero-meta-row">
+                <span class="meta-label">Location</span>
+                <span class="meta-value">Pune, India</span>
+              </div>
+              <div class="hero-meta-row">
+                <span class="meta-label">Experience</span>
+                <span class="meta-value">8+ years in QA / Testing</span>
+              </div>
+              <div class="hero-meta-row">
+                <span class="meta-label">Current role</span>
+                <span class="meta-value">Software Test Engineer</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-actions-row">
+            <a href="#contact" class="btn primary">Contact</a>
+            <a href="#work" class="btn text">View projects</a>
+            <a href="resume.html" class="btn text" target="_blank" rel="noreferrer">Open resume</a>
+          </div>
+          <div class="hero-chips">
+            <span>Functional &amp; Regression Testing</span>
+            <span>Web &amp; Mobile (Android / iOS)</span>
+            <span>Selenium · JMeter · Postman</span>
+            <span>Jira · Mantis</span>
+          </div>
+          <div class="hero-highlights" id="heroHighlights"></div>
+          <div id="heroMetrics" class="hero-metrics"></div>
+        </section>
+
+        <section class="card brief-card" id="brief">
+          <div class="card-heading">
+            <h2>One-minute brief</h2>
+            <span class="muted">What you get when I join the team</span>
+          </div>
+          <div class="brief-body">
+            <p>
+              8+ years leading QA for revenue-critical web and mobile launches across automotive, payments,
+              e‑commerce and industrial domains. I translate quality risks into business language, coach
+              squads on release discipline, and keep stakeholders calm with data-backed updates.
+            </p>
+            <ul class="brief-list" id="briefList">
+              <li>Launch readiness dashboards used by delivery &amp; product leadership</li>
+              <li>Automation uplift on UI, API and performance smoke suites</li>
+              <li>Embedded with cross-functional squads in Agile/Scrum &amp; hybrid models</li>
+            </ul>
+          </div>
+          <div class="brief-cta">
+            <a class="btn primary" href="mailto:sonnarsuraj7@gmail.com?subject=Suraj%20Sonnar%20-%20Interview%20Intro"
+              >Book intro call</a
+            >
+            <a class="btn text" href="resume.html" target="_blank" rel="noreferrer">Download resume</a>
+          </div>
+        </section>
+
+        <section class="card impact-card" id="impact">
+          <div class="card-heading">
+            <h2>Impact metrics</h2>
+            <span class="muted">Pulled from my last 4 programmes</span>
+          </div>
+          <div class="impact-grid" id="impactGrid"></div>
+        </section>
+
+        <section class="card playbook-card" id="playbook">
+          <div class="card-heading">
+            <h2>QA playbook</h2>
+            <span class="muted">How I derisk releases</span>
+          </div>
+          <ol class="playbook-list" id="playbookList"></ol>
+        </section>
+
+        <!-- About -->
+        <section class="card" id="about">
+          <h2>About</h2>
+          <p>
+            I’m Suraj Santaram Sonnar, a Software Test Engineer with over 8 years of professional IT
+            experience in functional manual and automation testing for web and mobile applications.
+          </p>
+          <p>
+            I have strong exposure to smoke, sanity, regression, exploratory, browser compatibility,
+            responsive design and load testing. I am familiar with Selenium WebDriver for regression and
+            UI automation, as well as JMeter for performance testing.
+          </p>
+          <p>
+            I’ve worked extensively with Agile/Scrum teams, writing test cases, executing test scenarios,
+            tracking and reporting defects, and coordinating closely with developers and stakeholders to
+            ensure high-quality releases.
+          </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="card" id="experience">
+          <h2>Experience</h2>
+
+          <div class="experience-block">
+            <div class="experience-header">
+              <div>
+                <h3>Software Test Engineer</h3>
+                <p class="experience-company">I Knowledge Factory Pvt. Ltd.</p>
+              </div>
+              <div class="experience-meta">
+                <span>Jun 2019 – Present</span>
+                <span>·</span>
+                <span>Pune, India</span>
+              </div>
+            </div>
+            <ul class="experience-list">
+              <li>
+                Perform functional, regression, exploratory, responsive and compatibility testing for
+                customer-facing websites and admin interfaces across multiple client projects
+                (e‑commerce, matrimony, corporate websites).
+              </li>
+              <li>
+                Design, review and execute test cases; create and maintain test data; log and track
+                defects using Jira and Mantis; work closely with developers to reproduce and resolve
+                issues quickly.
+              </li>
+              <li>
+                Participate in Agile/Scrum ceremonies, provide test estimates and coverage, and share
+                clear test status and risk updates with project stakeholders.
+              </li>
+              <li>
+                Lead client communication for QA scope including demos of new enhancements, daily / weekly
+                status reporting and coordination of releases on staging and production environments.
+              </li>
+              <li>
+                Helped deliver multiple website releases with zero P1 production defects at go‑live
+                through rigorous regression, UAT and release testing.
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-block">
+            <div class="experience-header">
+              <div>
+                <h3>Quality Analyst</h3>
+                <p class="experience-company">Bitware Technologies Pvt. Ltd.</p>
+              </div>
+              <div class="experience-meta">
+                <span>Sep 2016 – Jun 2019</span>
+                <span>·</span>
+                <span>Pune, India</span>
+              </div>
+            </div>
+            <ul class="experience-list">
+              <li>
+                Analyzed functional requirements and prepared test scenarios and detailed test cases for
+                web and mobile applications.
+              </li>
+              <li>
+                Conducted functional, regression, smoke and database testing; created accurate test data
+                to validate end‑to‑end business flows.
+              </li>
+              <li>
+                Reported and tracked defects, coordinated with developers to resolve issues, and provided
+                daily test activity status to onsite coordinators and leads.
+              </li>
+              <li>
+                Provided knowledge transfer (KT) sessions to team members on application functionality and
+                test coverage.
+              </li>
+              <li>
+                Supported successful go‑lives of Android / iOS apps by validating core flows (login,
+                search, cart, checkout, ticket booking and payments) across devices.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="card" id="work">
+          <h2>Selected projects</h2>
+          <p class="section-intro">
+            A selection of client websites and platforms I have tested end‑to‑end.
+          </p>
+          <div class="projects-grid">
+            <article class="project-item">
+              <h3>Force Motors</h3>
+              <p class="project-meta">Automotive manufacturer – corporate website</p>
+              <p>
+                Tested the Force Motors corporate website across browsers and devices, focusing on
+                navigation, content accuracy, lead forms and performance.
+              </p>
+              <p class="project-tags-line">Web testing · Automotive · Cross‑browser</p>
+              <a href="https://www.forcemotors.com" target="_blank" rel="noreferrer"
+                >www.forcemotors.com</a
+              >
+            </article>
+
+            <article class="project-item">
+              <h3>Endurance Group</h3>
+              <p class="project-meta">Engineering &amp; automotive components – corporate site</p>
+              <p>
+                Performed functional and regression testing of the Endurance Group website, validating
+                content, downloads, navigation and responsiveness.
+              </p>
+              <p class="project-tags-line">Web testing · Manufacturing · Responsive</p>
+              <a href="https://endurancegroup.com" target="_blank" rel="noreferrer"
+                >endurancegroup.com</a
+              >
+            </article>
+
+            <article class="project-item">
+              <h3>Sudarshan Chemical Industries</h3>
+              <p class="project-meta">Global color solutions and pigments – corporate site</p>
+              <p>
+                Tested key user journeys on the Sudarshan corporate website, including product finder,
+                product portfolio sections and enquiry/contact flows.
+              </p>
+              <p class="project-tags-line">Web testing · Chemicals · Global corporate</p>
+              <a href="https://sudarshan.com" target="_blank" rel="noreferrer">sudarshan.com</a>
+            </article>
+
+            <article class="project-item">
+              <h3>Alkyl Amines Chemicals</h3>
+              <p class="project-meta">Specialty chemicals – corporate website</p>
+              <p>
+                Performed functional, UI and responsive testing for the Alkyl Amines website, ensuring
+                accurate presentation of product and investor information.
+              </p>
+              <p class="project-tags-line">Web testing · Chemicals · UI / UX validation</p>
+              <a href="https://alkylamines.com" target="_blank" rel="noreferrer">alkylamines.com</a>
+            </article>
+
+            <article class="project-item">
+              <h3>Metasys Software</h3>
+              <p class="project-meta">IT services – corporate website</p>
+              <p>
+                Validated key user journeys, forms and content sections on the Metasys Software website,
+                performing regression and cross‑browser testing.
+              </p>
+              <p class="project-tags-line">Web testing · IT services · Regression</p>
+              <a href="https://www.metasyssoftware.com" target="_blank" rel="noreferrer"
+                >metasyssoftware.com</a
+              >
+            </article>
+
+            <article class="project-item">
+              <h3>Escon Gensets</h3>
+              <p class="project-meta">Power solutions – corporate website</p>
+              <p>
+                Tested the Escon Gensets site with a focus on product pages, enquiry flows, downloads and
+                responsiveness.
+              </p>
+              <p class="project-tags-line">Web testing · Industrial · Responsive</p>
+              <a href="https://www.escongensets.com" target="_blank" rel="noreferrer"
+                >escongensets.com</a
+              >
+            </article>
+          </div>
+        </section>
+
+        <section class="card credibility-card" id="credibility">
+          <div class="card-heading">
+            <h2>Proof points</h2>
+            <span class="muted">Voices from delivery &amp; product</span>
+          </div>
+          <div class="testimonial-grid" id="testimonialGrid"></div>
+        </section>
+      </div>
+
+      <!-- Right column: skills & contact (side rail) -->
+      <aside class="layout-side">
+        <section class="card essentials-card" id="essentials">
+          <h2>Interview essentials</h2>
+          <ul class="essentials-list" id="essentialsList"></ul>
+        </section>
+
+        <section class="card availability-card" id="availabilityCard">
+          <h2>Availability</h2>
+          <p class="muted availability-caption">Tap to update status</p>
+          <button class="chip-button" id="availabilityToggle" type="button">Interview ready</button>
+          <p class="availability-note" id="availabilityNote">Ready for discussions this month.</p>
+        </section>
+
+        <section class="card" id="skills">
+          <h2>Skill stack</h2>
+
+          <h3 class="side-heading">Testing</h3>
+          <ul class="side-list">
+            <li>Functional, Regression, Smoke, Sanity</li>
+            <li>Exploratory &amp; Ad‑hoc testing</li>
+            <li>System, UAT, User Acceptance</li>
+            <li>Load / Performance (JMeter)</li>
+          </ul>
+
+          <h3 class="side-heading">Tools &amp; Tech</h3>
+          <ul class="side-list">
+            <li>Selenium WebDriver</li>
+            <li>JMeter</li>
+            <li>Postman</li>
+            <li>Jira, Mantis</li>
+            <li>Basic SQL</li>
+          </ul>
+
+          <h3 class="side-heading">Domains</h3>
+          <ul class="side-list">
+            <li>E‑commerce &amp; Online Retail</li>
+            <li>Payments &amp; Money Transfer</li>
+            <li>Ticketing &amp; Event Management</li>
+            <li>Manufacturing &amp; Chemicals</li>
+            <li>Education &amp; Healthcare Equipment</li>
+          </ul>
+        </section>
+
+        <section class="card" id="contact">
+          <h2>Contact</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+919272850850">+91 9272 850 850</a>
+            </li>
+            <li class="contact-row">
+              <span class="contact-label">Email</span>
+              <a href="mailto:sonnarsuraj7@gmail.com">sonnarsuraj7@gmail.com</a>
+              <button class="btn ghost" type="button" data-copy="sonnarsuraj7@gmail.com">Copy</button>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://in.linkedin.com/in/surajsonnar" target="_blank" rel="noreferrer"
+                >in/surajsonnar</a
+              >
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">Share repositories</a>
+            </li>
+          </ul>
+          <div class="contact-quick">
+            <a class="btn text" href="mailto:sonnarsuraj7@gmail.com">Email now</a>
+            <a class="btn text" href="https://in.linkedin.com/in/surajsonnar" target="_blank" rel="noreferrer"
+              >LinkedIn</a
+            >
+          </div>
+          <div class="contact-resume">
+            <a
+              href="resume.html"
+              class="btn primary full-width"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open resume
+            </a>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Education</h2>
+          <ul class="side-list">
+            <li>
+              MMS (Masters in Computer Management), MIIT College – 2017<br />
+              <span class="muted">Dr. Babasaheb Ambedkar Marathwada University</span>
+            </li>
+            <li>
+              BCA (Bachelor of Computer Application), MIIT College – 2014<br />
+              <span class="muted">Dr. Babasaheb Ambedkar Marathwada University</span>
+            </li>
+            <li>Software Testing Certification – MindScripts Technology (Grade: A)</li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Suraj Sonnar</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
